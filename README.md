@@ -18,4 +18,6 @@ npm i babel-preset-stage-0 -S
 npm i chai -D
 npm i chai-as-promised -D
 npm i chai-string -D
+
+mkdir -p test/e2e/pageobjects
 ```
