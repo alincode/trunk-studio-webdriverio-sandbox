@@ -1,4 +1,4 @@
-describe('webdriver.io page', function() {
+describe.skip('webdriver.io page', function() {
   it('should have the right title', function() {
     browser.url('http://webdriver.io');
     let title = browser.getTitle();
