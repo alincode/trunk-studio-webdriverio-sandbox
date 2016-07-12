@@ -72,7 +72,7 @@ exports.config = {
   //
   // Set a base URL in order to shorten url command calls. If your url parameter starts
   // with "/", then the base url gets prepended.
-  baseUrl: 'http://localhost:1337',
+  baseUrl: 'http://webdriver.io',
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
@@ -148,6 +148,7 @@ exports.config = {
     chai.use(chaiAsPromised);
     global.assert = chai.assert;
     global.expect = chai.expect;
+    global.$ = browser;
   },
   //
   // Hook that gets executed before the suite starts
