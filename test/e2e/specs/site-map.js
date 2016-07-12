@@ -9,6 +9,7 @@ describe('site map', () => {
       FrontPage.open();
       let title = $.getTitle();
       title.should.be.equal(FrontPage.content.title);
+      $.saveScreenshot('./screenshot/front.png');
       FrontPage.subTitleElement.isExisting().should.be.equal(true);
       FrontPage.subTitleElement.getText().should.be.equal(FrontPage
         .content.subTitle);
@@ -27,12 +28,14 @@ describe('site map', () => {
   it('guide page', () => {
     GuidePage.open();
     let title = $.getTitle();
+    $.saveScreenshot('./screenshot/guide.png');
     title.should.be.equal(GuidePage.content.title);
   });
 
   it('api page', () => {
     ApiPage.open();
     let title = $.getTitle();
+    $.saveScreenshot('./screenshot/api.png');
     title.should.be.equal(ApiPage.content.title);
   });
 
