@@ -2,4 +2,5 @@
 
 ```
 npm init -y
+npm i webdriverio -D
 ```

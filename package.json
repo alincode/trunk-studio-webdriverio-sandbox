@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/alincode/trunk-studio-webdriverio-sandbox/issues"
   },
-  "homepage": "https://github.com/alincode/trunk-studio-webdriverio-sandbox#readme"
+  "homepage": "https://github.com/alincode/trunk-studio-webdriverio-sandbox#readme",
+  "devDependencies": {
+    "webdriverio": "^4.2.1"
+  }
 }
