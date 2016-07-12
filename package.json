@@ -19,6 +19,7 @@
   "homepage": "https://github.com/alincode/trunk-studio-webdriverio-sandbox#readme",
   "devDependencies": {
     "wdio-mocha-framework": "^0.3.5",
+    "wdio-selenium-standalone-service": "0.0.5",
     "webdriverio": "^4.2.1"
   }
 }
