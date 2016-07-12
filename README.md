@@ -9,4 +9,5 @@ npm i wdio-selenium-standalone-service -D
 npm i wdio-spec-reporter -D
 
 mkdir -p ./test/e2e/specs/
+mkdir -p ./errorShots/
 ```
