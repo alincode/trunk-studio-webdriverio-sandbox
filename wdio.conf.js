@@ -1,3 +1,7 @@
+var chai = require('chai');
+var chaiString = require('chai-string');
+var chaiAsPromised = require('chai-as-promised');
+
 exports.config = {
 
   //
@@ -138,8 +142,13 @@ exports.config = {
   //
   // Gets executed before test execution begins. At this point you can access all global
   // variables, such as `browser`. It is the perfect place to define custom commands.
-  // before: function (capabilities, specs) {
-  // },
+  before: function(capabilities, specs) {
+    chai.should();
+    chai.use(chaiString);
+    chai.use(chaiAsPromised);
+    global.assert = chai.assert;
+    global.expect = chai.expect;
+  },
   //
   // Hook that gets executed before the suite starts
   // beforeSuite: function (suite) {

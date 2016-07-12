@@ -14,4 +14,8 @@ mkdir -p ./errorShots/
 npm i babel-core -S
 npm i babel-preset-es2015 -S
 npm i babel-preset-stage-0 -S
+
+npm i chai -D
+npm i chai-as-promised -D
+npm i chai-string -D
 ```
