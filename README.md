@@ -10,4 +10,8 @@ npm i wdio-spec-reporter -D
 
 mkdir -p ./test/e2e/specs/
 mkdir -p ./errorShots/
+
+npm i babel-core -S
+npm i babel-preset-es2015 -S
+npm i babel-preset-stage-0 -S
 ```
